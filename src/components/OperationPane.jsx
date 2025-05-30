@@ -1,7 +1,7 @@
 import Digit from "./Digit";
 import { useState } from "react";
 export default function OperationPane({ operationList }) {
-  const [modifier, setModifier] = useState("digit--operation");
+  const [modifier, setModifier] = useState("digit digit--operation");
   return (
     <>
       <article className="control-pane__operation-pane">
