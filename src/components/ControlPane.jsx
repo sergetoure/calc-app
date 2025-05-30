@@ -24,8 +24,10 @@ export default function ControlPane() {
 
   return (
     <>
-      <DigitPane digitList={digitList} />
-      <OperationPane operationList={operationList} />
+      <article className="control-pane">
+        <DigitPane digitList={digitList} />
+        <OperationPane operationList={operationList} />
+      </article>
     </>
   );
 }
