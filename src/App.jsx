@@ -14,9 +14,8 @@ function App() {
           <img src={reactLogo} alt="logo" className="calc-logo__img" />
           <span className="calc-logo__title">cientis instrument</span>
         </article>
-        <div>
-          <input className="display-pane" type="text" name="" id="" />
-        </div>
+
+        <div className="display-pane"></div>
 
         <article className="control-pane">
           <article className="control-pane__digit-pane">

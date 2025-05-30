@@ -51,22 +51,31 @@
 .calc-logo {
   text-align: left;
   padding: 20px;
+  display: flex;
+  //justify-content: space-around;
+  align-items: center;
+  gap: 5px;
 
   &__img {
+    transform: rotate(360deg);
+    //transition: all 1s;
   }
 
   &__title {
+    font-weight: 600;
   }
 }
 
 .display-pane {
   width: 75%;
   height: 30px;
+  border: 1px solid white;
+  margin: 0 auto;
 }
 
 .control-pane {
   display: flex;
-  width: 290px;
+  width: 240px;
   margin: 10px auto;
   //border: 1px solid white;
   justify-content: space-around;
@@ -76,7 +85,7 @@
     display: flex;
     flex-flow: row wrap;
     gap: 10px;
-    width: 200px;
+    //width: 200px;
   }
 
   &__operation-pane {
@@ -95,8 +104,13 @@
   background-color: white;
   padding: 10px;
   font-weight: 600;
+  transition: all 0.2s ease;
   &:hover {
     cursor: pointer;
+    transform: translateY(-1px);
+  }
+  &:active {
+    transform: translateY(0px);
   }
 
   &--operation {
