@@ -4,10 +4,13 @@ import viteLogo from "/vite.svg";
 import "./App.scss";
 import DisplayPane from "./components/DisplayPane";
 import ControlPane from "./components/ControlPane";
+import {
+  useCalcStateContext,
+  useCalcReducerContext,
+} from "./provider/CalculatorProvider";
 
 function App() {
-  const [count, setCount] = useState(0);
-
+  const { dispatch } = useCalcReducerContext();
   return (
     <>
       <h1>My Calculation Application</h1>
