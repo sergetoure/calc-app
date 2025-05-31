@@ -13,7 +13,6 @@ function App() {
   const { dispatch } = useCalcReducerContext();
   return (
     <>
-      <h1>My Calculation Application</h1>
       <article className="calc">
         <article className="calc-logo">
           <img src={reactLogo} alt="logo" className="calc-logo__img" />

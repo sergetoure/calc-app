@@ -16,7 +16,7 @@ const initialDigitList = [
   "0",
   ".",
 ];
-const initialOperationList = ["+", "-", ":", "x"];
+const initialOperationList = ["+", "-", ":", "x", "="];
 
 export default function ControlPane() {
   const [digitList, setDigitList] = useState(initialDigitList);

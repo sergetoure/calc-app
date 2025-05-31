@@ -43,7 +43,7 @@
 
 .calc {
   width: 350px;
-  border: 2px solid white;
+  border: 5px solid white;
   //height: 400px;
   margin: 0 auto;
   border-radius: 5px;
@@ -71,6 +71,12 @@
   height: 30px;
   border: 1px solid white;
   margin: 0 auto;
+  text-align: right;
+  padding: 0px 5px;
+  font-weight: 900;
+  font-size: 20px;
+
+  letter-spacing: 1px;
 }
 
 .control-pane {
@@ -93,7 +99,7 @@
     //border: 1px solid white;
     flex-flow: column wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 5px;
   }
 }
 
@@ -117,5 +123,6 @@
     background-color: rgb(61, 205, 253);
     color: white;
     font-weight: 700;
+    height: 22px;
   }
 }
